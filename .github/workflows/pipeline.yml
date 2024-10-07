@@ -41,7 +41,7 @@ jobs:
     needs: test
     steps:
       - name: Deploy to production
-        uses: JorgeLnJunior/render-deploy@v1.4.4
+        uses: JorgeLNJunior/render-deploy@v1.4.4
         with:
           service-id: ${{ secrets.MY_RENDER_SERVICE_ID }}
           api-key: ${{ secrets.MY_RENDER_API_KEY }}
