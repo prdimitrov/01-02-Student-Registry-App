@@ -34,7 +34,7 @@ jobs:
     - name: Install dependencies
       run: npm install
     - name: Execute integration tests
-      run: num run test
+      run: npm run test
 
   deploy:
     runs-on: ubuntu-latest
